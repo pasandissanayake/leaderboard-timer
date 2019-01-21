@@ -1,15 +1,15 @@
-1. keys:
+## keys:
 	* "t" - toggle view between leaderboard and timer
 	* ">" - reset timer
 	* <space> - start/ pause timer
 
 
-1. files:
+## files:
 	* "index.html" - main page
 	* "data.csv" - team names and scores
 
 
-1. configuation:
+## configuation:
 	* js/timer.js
 		* DURATION - timer duration in miliseconds
 		* CLOCK_FACE - string to be shown when timer is reset
