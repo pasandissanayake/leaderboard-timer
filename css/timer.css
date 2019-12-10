@@ -1,0 +1,49 @@
+#timer {
+  width: 800px;
+  height: auto;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: 5px solid #666;
+  border-radius: 20px;
+  font-family: monospace;
+  font-size: 150px;
+  background: rgba(255, 255, 255, 0.7);
+  display: inline-block;
+  color: black;
+}
+
+button {
+  background-color: #3a4764;
+  border-radius: 6px;
+  width: 120px;
+  height: 40px;
+  margin-right: 10px;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  box-shadow: 0 7px #999;
+}
+
+button:hover {
+  background-color: #59c1e3;
+}
+
+button:active {
+  background-color: #59c1e3;
+  transform: translateY(4px);
+  box-shadow: 0 4px #666;
+}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+  
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
